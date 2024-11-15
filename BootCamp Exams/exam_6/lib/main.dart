@@ -48,7 +48,6 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.black,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white38,
         items: const [
@@ -125,8 +124,8 @@ class RecommendedSection extends StatelessWidget {
               left: MediaQuery.of(context).size.width * 0.5 - 50,
               child: ElevatedButton.icon(
                 onPressed: () {},
-                icon: Icon(Icons.play_arrow, color: Colors.black),
-                label: Text(
+                icon: const Icon(Icons.play_arrow, color: Colors.black),
+                label: const Text(
                   'Play',
                   style: TextStyle(color: Colors.black),
                 ),
